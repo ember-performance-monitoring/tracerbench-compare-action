@@ -190,6 +190,11 @@
   resolved "https://registry.yarnpkg.com/@tracerbench/har/-/har-5.3.6.tgz#ce003d8dc5168f54cc21add1503373d2754aa78f"
   integrity sha512-k7SAqA7ZAoQtXcGCMyIRPsdtCy7Nzom7YznBEPTpTRgGXx72uWoIU6GzpJhQ2ktY2ilA/zt13OqFaDEtoqMgUw==
 
+"@tracerbench/har@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@tracerbench/har/-/har-6.1.0.tgz#bb5df4a77cc32041576c576c34c402c2d86b8b7a"
+  integrity sha512-UMyWPjXBWsVMVacxZ3CK0amNVCkmGMUuCWGEk/3NkfPyBE+vk717m2fwHSH5zv/qtqJU2MnO5n0l7LkSDdjqkw==
+
 "@tracerbench/message-transport@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tracerbench/message-transport/-/message-transport-2.0.0.tgz#430c1c84eac2860d9819d9a9c94ef06d79f80e16"
@@ -985,13 +990,13 @@ handlebars@^4.7.6:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-har-remix@^5.3.6:
-  version "5.3.6"
-  resolved "https://registry.yarnpkg.com/har-remix/-/har-remix-5.3.6.tgz#631c1a3e7e6f0a200b5a2de42b31b935fd6b98ff"
-  integrity sha512-Q82MvL4XHEl55L4+X6HP09u/8aDAxRGuaZMuulwj/1axEKrYfsflQSIVGmk1aikwJ1IQwPHKQY6r0e9yP2Hfsw==
+har-remix@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/har-remix/-/har-remix-6.1.0.tgz#dce339a7b4c84b31a0664d73e09e4708d292a636"
+  integrity sha512-2aF+v5WkmTFQOug3RSkieqNo3UY5HOybz/XrzC/gN/g6wK6qjlVGH0zgJ1vkEfa0PAwjAgxhuBsjjuy2qxAxpA==
   dependencies:
-    "@tracerbench/har" "^5.3.6"
-    mime-types "^2.1.27"
+    "@tracerbench/har" "^6.1.0"
+    mime-types "^2.1.30"
 
 has-ansi@^2.0.0:
   version "2.0.0"
@@ -1423,7 +1428,7 @@ mime-db@1.47.0:
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.47.0.tgz#8cb313e59965d3c05cfbf898915a267af46a335c"
   integrity sha512-QBmA/G2y+IfeS4oktet3qRZ+P5kPhCKRXxXnQEudYqUaEioAU1/Lq2us3D/t1Jfo4hE9REQPrbB7K5sOczJVIw==
 
-mime-types@^2.1.27:
+mime-types@^2.1.30:
   version "2.1.30"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.30.tgz#6e7be8b4c479825f85ed6326695db73f9305d62d"
   integrity sha512-crmjA4bLtR8m9qLpHvgxSChT+XoSlZi8J4n/aIdn3z92e/U47Z0V/yl+Wh9W046GgFVAmoNR/fmdbZYcSSIUeg==
