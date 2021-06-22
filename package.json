@@ -8,7 +8,7 @@
   "dependencies": {
     "@actions/core": "^1.2.7",
     "@actions/artifact": "^0.5.1",
-    "@actions/glob": "^0.1.1",
+    "@actions/glob": "^0.2.0",
     "execa": "^5.0.0",
     "har-remix": "^5.3.6",
     "is-reachable": "^5.0.0",
